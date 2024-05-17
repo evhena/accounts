@@ -9,7 +9,8 @@ export default defineConfig({
       name: 'accounts',
       filename: 'remoteEntry.js',
       exposes: {
-        './AccountsApp': './src/App.jsx',
+        './ProfilePage': './src/pages/ProfilePage.jsx',
+        './SocialAccounts': './src/pages/SocialAccounts.jsx',
       },
       shared: ['react', 'react-dom'],
     }),
