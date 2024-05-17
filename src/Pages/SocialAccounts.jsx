@@ -3,7 +3,7 @@ import React from 'react';
 export default function SocialAccounts() {
   return (
     <div className="page">
-      <h1>Social Accounts Page</h1>
+      <h2>Social Accounts Page</h2>
     </div>
   );
 }
