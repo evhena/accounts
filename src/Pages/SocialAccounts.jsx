@@ -1,5 +1,9 @@
 import React from 'react';
 
 export default function SocialAccounts() {
-  return <div>Social Accounts</div>;
+  return (
+    <div className="page">
+      <h1>Social Accounts Page</h1>
+    </div>
+  );
 }
